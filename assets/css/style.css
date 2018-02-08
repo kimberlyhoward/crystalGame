@@ -4,4 +4,9 @@ body {
 h1 {
     color: white;
     background-color: blueviolet;
+    text-align: center;
+}
+.instructions{
+    background-color: white;
+    color: black;
 }
