@@ -1,12 +1,21 @@
 body {
     background-image: url("../images/asanoha-400px.png");
+    width: 550px;
 }
 h1 {
     color: white;
-    background-color: blueviolet;
+    background-color: blue;
     text-align: center;
 }
 .instructions{
     background-color: white;
-    color: black;
+    color: blue;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+div {
+    clear: left;
+    font-size: 16px;
+    color: blue;
 }

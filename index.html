@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="assets/javascript/game.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"> </script>
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <title>Crystal Collecting Game</title>
 </head>
@@ -22,19 +21,50 @@
         <h1>
             Crystal Collecting Game
         </h1>
-
+        <br>
         <p>
             <div class="col-md-8">
                 <div class="instructions">
-                    <div> You will be given a random number at the start of the game.</div>
+                    <div> You will be given an mystery number at the start of the game.</div>
                     <br>
                     <div> There are 4 crystals below. By clicking on a crystal you will add a specific number of points to your
-                        total score.</div>
+                        total score. Your number will be shown in the box below.</div>
+                    <br>
+                    <div> You win the game by matching your total score to unknown number. You lose the game if your total score
+                        goes above the random number.
+                    </div>
+                    <br>
+                    <div>
+                        The value of each crystal is hidden from you until you click on it.
+                    </div>
+                    <br>
+                    <div>
+                        Each time you play, the mystery number and the crystal numbers change.
+                    </div>
+                    <br>
+                    <div>
+                        Good Luck!
+                    </div>
                 </div>
-                
+
             </div>
+            <div>
+                Your Number:
+            </div>
+            <br>
+                <div>
+                    <img src="assets/images/amethyst.jpg" alt="" id="purple" style="width:75px; height:75px" ;>
+                    <img src="assets/images/emerald.jpg" alt="" id="green" style="width:75px; height:75px" ;>
+                    <img src="assets/images/ruby.jpg" alt="" id="red" style="width:75px; height:75px" ;>
+                    <a href="" id="blue">
+                        <img src="assets/images/sapphire.jpg" style="width:75px; height:75px" ; alt="" a/>
+                </div>
         </p>
-    </div>
+        <div>
+            Wins:
+            <br> Losses:
+        </div>
+        </div>
 
 </body>
 
