@@ -27,44 +27,47 @@ $("#start").click(function () {
 $("#blue").click(function () {
     sum += crystalValue1
     $(".guessNumber").text(sum);
+    compare();
 });
 
 $("#purple").click(function () {
     sum += crystalValue2
     $("#guessNumber").text(sum);
+    compare();
 });
 
 $("#green").click(function () {
     sum += crystalValue3
     $("#guessNumber").text(sum);
+    compare();
 });
 
 $("#red").click(function () {
     sum += crystalValue4
     $("#guessNumber").text(sum);
+    compare();
 });
 
 
+function compare (){
 
-// $(guess.computerNumber).html(computerNumber);
 
-
-// // If number less, then display in guessNumber box.
-// if (guessNumber < computerNumber) {
-//     document.getElementById("guessNumber") = guessNumber
-// }
+// // // If number less, then display in guessNumber box.
+if (guessNumber < computerNumber) {
+    document.getElementById("guessNumber") = guessNumber
+}
 
 // // If number more, then lose.
-// else (guessNumber > computerNumber) {
-//     document.getElementById("guessNumber") = 
-// }
+else if (guessNumber > computerNumber) {
+    document.getElementById("guessNumber") = "Sorry, you lose."
+}
 
 
 // // if numbers equals, then win.
 // else (guessNumber = computerNumber) {
 //     document.getElementById("guessNumber") = guessNumber
 // }
-
+}
 // // Display wins.
 
 
