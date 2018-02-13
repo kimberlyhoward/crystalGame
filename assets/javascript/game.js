@@ -50,8 +50,6 @@ $("#red").click(function () {
 
 
 function compare (){
-
-
 // // // If number less, then display in guessNumber box.
 if (guessNumber < computerNumber) {
     document.getElementById("guessNumber") = guessNumber
@@ -61,7 +59,6 @@ if (guessNumber < computerNumber) {
 else if (guessNumber > computerNumber) {
     document.getElementById("guessNumber") = "Sorry, you lose."
 }
-
 
 // // if numbers equals, then win.
 // else (guessNumber = computerNumber) {
