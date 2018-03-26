@@ -5,9 +5,12 @@ var crystalValue2;
 var crystalValue3;
 var crystalValue4;
 var sum = 0;
+var losses = 0;
+var wins = 0;
+
 
 function newGame() {
-    computerNumber = Math.floor((Math.random() * 120) + 19);
+    computerNumber = Math.floor((Math.random() * 50) + 19);
     $(".computerNumber").html(computerNumber);
     crystalValue1 = Math.floor((Math.random() * 12) + 1);
     crystalValue2 = Math.floor((Math.random() * 12) + 1);
@@ -51,21 +54,22 @@ $("#red").click(function () {
 
 function compare (){
 // // // If number less, then display in guessNumber box.
-if (guessNumber < computerNumber) {
-    document.getElementById("guessNumber") = guessNumber
+if (sum < computerNumber) {
+    document.getElementById("guessNumber").innerHTML = sum
 }
 
 // // If number more, then lose.
-else if (guessNumber > computerNumber) {
-    document.getElementById("guessNumber") = "Sorry, you lose."
+else if (sum > computerNumber) {
+    document.getElementById("guessNumber").innerHTML = "Sorry, you lose."
+    losses++
+    document.getElementById("loss").innerHTML = losses;
 }
 
 // // if numbers equals, then win.
-// else (guessNumber = computerNumber) {
-//     document.getElementById("guessNumber") = guessNumber
-// }
+
+else if (sum === computerNumber) {
+    document.getElementById("guessNumber").innerHTML = "You win!"
+    wins ++
+    document.getElementById("win").innerHTML = wins;
 }
-// // Display wins.
-
-
-// Display losses.
+}
