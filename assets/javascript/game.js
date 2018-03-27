@@ -10,7 +10,7 @@ var wins = 0;
 
 
 function newGame() {
-    computerNumber = Math.floor((Math.random() * 50) + 19);
+    computerNumber = Math.floor((Math.random() * 120) + 19);
     $(".computerNumber").html(computerNumber);
     crystalValue1 = Math.floor((Math.random() * 12) + 1);
     crystalValue2 = Math.floor((Math.random() * 12) + 1);
