@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/asanoha-400px.png");
+    background-color: rgb(50, 204, 209);
     width: 750px;
 }
 h1 {
@@ -8,7 +8,6 @@ h1 {
     text-align: center;
 }
 .instructions{
-    background-color: white;
     color: blue;
     font-size: 16px;
     margin-bottom: 10px;
@@ -21,4 +20,5 @@ div {
 }
 img {
     border: solid; color: blue; size: 5px;
+    align-content: center;
 }
