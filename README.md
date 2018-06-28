@@ -1,4 +1,4 @@
-# weekFourGame
+# Crystal Game
 
 You will be given a number at the start of the game.
 
