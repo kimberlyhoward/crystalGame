@@ -11,3 +11,7 @@ The value of each crystal is hidden from you until you click on it.
 Each time you play, the computer number and the crystal numbers change.
 
 Good Luck!
+
+[Link to game.](https://flowermemorygame.herokuapp.com/)
+
+![ScreenShot](/assets/images/flowerMemoryGame.PNG)
