@@ -14,4 +14,4 @@ Good Luck!
 
 [Link to game.](https://flowermemorygame.herokuapp.com/)
 
-![ScreenShot](/assets/images/flowerMemoryGame.PNG)
+![ScreenShot](/assets/images/cryatalGame.PNG)
