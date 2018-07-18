@@ -12,6 +12,6 @@ Each time you play, the computer number and the crystal numbers change.
 
 Good Luck!
 
-[Link to game.](https://flowermemorygame.herokuapp.com/)
+[Link to game.](https://kimberlyhoward.github.io/crystalGame/)
 
 ![ScreenShot](/assets/images/cryatalGame.PNG)
